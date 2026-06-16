@@ -83,7 +83,7 @@ const alumno = computed(() => {
 const fetchConstancia = async () => {
   try {
     loading.value = true;
-    const response = await axios.get(`https://sisacad-enrollments-backend.vercel.app/restful/enrollment-certificate/?cui=${cui}`);
+    const response = await axios.get(`/api/enrollment-certificate/?cui=${cui}`);
     matriculas.value = response.data.results;
   } catch (err) {
     console.error(err);
