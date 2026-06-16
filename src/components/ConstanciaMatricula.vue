@@ -4,6 +4,7 @@
       <header class="document-header">
         <h1>CONSTANCIA DE MATRÍCULA DE LABORATORIO</h1>
         <h2>Escuela Profesional de Ingeniería de Sistemas EPIS</h2>
+        <p style="font-weight: bold; margin: 5px 0; color: #333;">Alumno: Eder Vicente Medina</p>
         <p class="date-emission">Emitido el: 11/06/2026</p>
       </header>
 
